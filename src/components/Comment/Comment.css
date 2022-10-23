@@ -16,6 +16,7 @@
   padding: 6px 10px;
   font-size: 12px;
   cursor: pointer;
+  color: black;
 }
 .replies {
   width: 90%;
@@ -34,6 +35,8 @@
   width: 90%;
   margin: 0 0 10px auto;
 }
-.comment_button:hover {
-  color: white;
+@media (hover: hover) {
+  .comment_button:hover {
+    color: white;
+  }
 }

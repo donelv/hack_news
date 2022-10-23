@@ -28,7 +28,9 @@
 .singleArticle_bottom p {
   margin: 0;
 }
-.singleArticle:hover .singleArticle_title {
-  background-color: #faab5c;
-  transition: 0.4s all;
+@media (hover: hover) {
+  .singleArticle:hover .singleArticle_title {
+    background-color: #faab5c;
+    transition: 0.4s all;
+  }
 }
