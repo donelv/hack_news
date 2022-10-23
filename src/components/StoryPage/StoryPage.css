@@ -1,0 +1,54 @@
+.storyPage {
+  display: flex;
+  width: 80%;
+  height: 80%;
+  background-color: white;
+  color: black;
+  border-radius: 0 0 10px 10px;
+  border-top: none;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: flex-start;
+  padding: 20px;
+  box-shadow: 0 1rem 2rem 0.2rem rgb(0 0 0 / 25%);
+}
+.storyPage_title {
+  text-align: left;
+  margin: 10px 0;
+}
+.storyPage_p {
+  margin: 0;
+}
+.storyPage_title h2 {
+  color: black;
+  margin: 0 10px 0 0;
+  display: inline-block;
+  background-color: #ffc68d;
+  padding: 4px;
+  border-radius: 6px;
+}
+.storyPage_title a {
+  font-size: 12px;
+  color: #6e6e6e;
+  display: inline-block;
+}
+.storyPage_buttonsWrapper {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  width: 100%;
+}
+.storyPage_button {
+  border: none;
+  background-color: #333;
+  color: #fb9200;
+  cursor: pointer;
+  border-radius: 6px;
+  padding: 6px 10px;
+}
+.storyPage_button:hover {
+  color: white;
+}
+.storyPage_title a:hover {
+  color: #ff5500;
+}
