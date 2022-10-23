@@ -46,9 +46,11 @@
   border-radius: 6px;
   padding: 6px 10px;
 }
-.storyPage_button:hover {
-  color: white;
-}
-.storyPage_title a:hover {
-  color: #ff5500;
+@media (hover: hover) {
+  .storyPage_button:hover {
+    color: white;
+  }
+  .storyPage_title a:hover {
+    color: #ff5500;
+  }
 }
